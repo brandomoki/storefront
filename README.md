@@ -11,9 +11,9 @@ When the user selects (clicks on) a category …
 Identify that category as selected (change of class/display)
 Show a list of products associated with the category
 
+## Resources 
 
-
-
+[code401 inclass demo code](https://github.com/codefellows/seattle-code-javascript-401d48)
 <!-- ______________________________________________________ -->
 
 # Getting Started with Create React App

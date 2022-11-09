@@ -1,3 +1,6 @@
+import { connect } from "react-redux";
+import { selectCategory } from "../../store/actions";
+
 
 const Catagories = () => {
   return (
@@ -9,4 +12,10 @@ const Catagories = () => {
   );
 };
 
-export default Catagories;
+const mapStateToProps = (store) => ({ 
+  categories: store.categories,
+});
+
+const mapDispatchToProps = { selectCategory };
+
+export default connect( mapStateToProps, mapDispatchToProps )(Catagories);
